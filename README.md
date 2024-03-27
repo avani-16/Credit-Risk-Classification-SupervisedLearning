@@ -33,22 +33,24 @@ Completed the following steps:
    In this analysis, I have used various techniques to train and evaluate a model based on loan risk. Used a dataset of historical lending activity from a peer-to-peer 
    lending services company. First, splitted the data into training and testing sets and then created a Logistic Regression Model with the Original data. 
    Afterwards, evaluated the model's performance by generating Confusion Matrix and printed the Testing Classification Report.
+   
    #### The results:
-     - Accuracy score:
-        The logistic regression model seems to predict high accuracy score of 0.99.
-     - Precision score:
-        The logistic regression model seems to predict the 0 (healthy loan) very well with precision score 1.00 
-        but the 1 (high-risk loan) with 0.84.
-     - Recall score:
-        The logistic regression model seems to prdict the 0 (healthy loan) with 0.99 
-        and 1 (high-risk loan) with 0.94.
+   - Accuracy score:
+      The logistic regression model seems to predict high accuracy score of 0.99.
+   - Precision score:
+      The logistic regression model seems to predict the 0 (healthy loan) very well with precision score 1.00 
+      but the 1 (high-risk loan) with 0.84.
+   - Recall score:
+      The logistic regression model seems to prdict the 0 (healthy loan) with 0.99 
+      and 1 (high-risk loan) with 0.94.
+     
    #### A summary:
-      - From the confusion matrix, out of 18,765 'loan status' that are healthy (label 0), 
-        the model predicted 18,655 as healthy correctly and 110 as incorrectly.
-      - From the confusion matrix, out of 619 'loan status' that are high-risk (label 1), 
-        the model predicted 583 as high-risk correctly and 36 as incorrectly.
-      - This suggests that the model's ability to classify healthy loans is stronger than its performance with high-risk loans. 
-      - Due to its accuracy, the machine learning model is highly recommended for both healthy and high-risk loans.
+   - From the confusion matrix, out of 18,765 'loan status' that are healthy (label 0), 
+     the model predicted 18,655 as healthy correctly and 110 as incorrectly.
+   - From the confusion matrix, out of 619 'loan status' that are high-risk (label 1), 
+     the model predicted 583 as high-risk correctly and 36 as incorrectly.
+   - This suggests that the model's ability to classify healthy loans is stronger than its performance with high-risk loans. 
+   - Due to its accuracy, the machine learning model is highly recommended for both healthy and high-risk loans.
    
    
 
